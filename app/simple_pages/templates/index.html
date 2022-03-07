@@ -69,7 +69,7 @@
                             <h2 class="card-title">Git and Github</h2>
                             <p class="card-text">Visit my Git and Github page here</p>
                         </div>
-                        <div class="card-footer"><a class="btn btn-primary btn-sm" href="page1.html">More Info</a></div>
+                        <div class="card-footer"><a class="btn btn-primary btn-sm" href="/page1">More Info</a></div>
                     </div>
                 </div>
                 <div class="col-md-4 mb-5">
@@ -78,7 +78,7 @@
                             <h2 class="card-title">Docker</h2>
                             <p class="card-text">Visit my Docker page here</p>
                         </div>
-                        <div class="card-footer"><a class="btn btn-primary btn-sm" href="page2.html">More Info</a></div>
+                        <div class="card-footer"><a class="btn btn-primary btn-sm" href="/page2">More Info</a></div>
                     </div>
                 </div>
                 <div class="col-md-4 mb-5">
@@ -87,7 +87,7 @@
                             <h2 class="card-title">Python/Flask</h2>
                             <p class="card-text">Visit my Python and Flask page here</p>
                         </div>
-                        <div class="card-footer"><a class="btn btn-primary btn-sm" href="page3.html">More Info</a></div>
+                        <div class="card-footer"><a class="btn btn-primary btn-sm" href="/page3">More Info</a></div>
                     </div>
                 </div>
                 <div class="col-md-4 mb-5">
@@ -96,7 +96,7 @@
                             <h2 class="card-title">CICD</h2>
                             <p class="card-text">Visit my CICD page here</p>
                         </div>
-                        <div class="card-footer"><a class="btn btn-primary btn-sm" href="page4.html">More Info</a></div>
+                        <div class="card-footer"><a class="btn btn-primary btn-sm" href="/page4">More Info</a></div>
                     </div>
                 </div>
             </div>
@@ -109,7 +109,34 @@
         <!-- Core theme JS-->
         <script src="../js/scripts.js"></script>
 
+<!-----------------------------------FOOTER----------------------------------->
+ <div class="container">
+        <footer class="d-flex justify-content-between align-items-center py-3 my-4 border-top">
+            <p class="col-md-5 mb-1 verylightgrey">&copy; {{ year }} Angela Arroyo / Environment: {{ deployment_environment
+                }}</p>
 
+            <a href="/"
+               class="col-md-2 d-flex align-items-center mb-2 mb-md-0 me-md-auto text-decoration-none">
+                <svg class="bi me-2" width="38" height="38">
+                </svg>
+            </a>
+
+
+
+    <!-- <footer>
+        Environment: {{ deployment_environment }} - Copyright: {{ year }}
+        Message: {{ mymessage }} {{ format_price(100) }}
+    </footer> -->
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+<script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+
+</footer>
+ </div>
 
 </body>
 </html>
