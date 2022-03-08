@@ -1,13 +1,12 @@
 # Project Setup
+* link to Dev app: https://angela-project1-dev.herokuapp.com/
+* link to Prod app: https://angela-project1-prod.herokuapp.com/
 
-[![Production Workflow](https://github.com/kaw393939/docker_flask/actions/workflows/prod.yml/badge.svg)](https://github.com/kaw393939/docker_flask/actions/workflows/prod.yml)
+# Status Badges
 
-* [Production Deployment](https://kwilliam-prod.herokuapp.com/)
+[![Production Workflow](https://github.com/aarroyo20/Project/actions/workflows/prod.yml/badge.svg)](https://github.com/aarroyo20/Project/actions/workflows/prod.yml)
 
-
-[![Development Workflow](https://github.com/kaw393939/docker_flask/actions/workflows/dev.yml/badge.svg)](https://github.com/kaw393939/docker_flask/actions/workflows/dev.yml)
-
-* [Developmental Deployment](https://kwilliam-dev.herokuapp.com/)
+[![Development Workflow](https://github.com/aarroyo20/Project/actions/workflows/dev.yml/badge.svg)](https://github.com/aarroyo20/Project/actions/workflows/dev.yml)
 
 ## Setting up CI/CD
 
