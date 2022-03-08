@@ -43,28 +43,46 @@ A Docker Image is a blueprint or template for creating Docker Containers.
 
 Docker Containers are processes that enable OS-level virtualization.
 
-<h2> Common Terms</h2>
+<h2> Docker Terminology:</h2>
             <ul>
                 <li><b>Docker Image:</b> a Docker Image is a file used to execute code in a Docker container. Docker images act as a set of instructions to build a Docker container, like a template. Docker images also act as the starting point when using Docker. An image is comparable to a snapshot in virtual machine (VM) environments.</li>
                 <li><b>Docker Container:</b> a Docker Container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another. A Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings.</li>
             </ul>
+<h2> Docker Commands:</h2>
+        <ul>
+            <li><b>docker run:</b> Run a command in a new container</li>
+            <li><b>docker start:</b> Start one or more stopped containers</li>
+            <li><b>docker stop:</b> Stop one or more running containers</li>
+            <li><b>docker rm:</b> Remove one or more containers</li>
+            <li><b>docker rmi:</b> Remove one or more images</li>
+            <li><b>docker build:</b> Build an image from a Dockerfile</li>
+            <li><b>docker image:</b> Manage images</li>
+            <li><b>docker ps:</b> List containers</li>
+            <li><b>docker pull:</b> Pull an image or a repository from a registry</li>
+        </ul>
 
-
-            </p>
         </div>
     </div>
 
+<h2>How to access the container with the terminal using just terminal commands</h2>
+<h3>Steps:</h3>
+    <ol>
+        <li>run command "docker pull angelaarroyo/angela-project1-prod:master"</li>
+        <li>run command "docker compose up --build"</li>
+        <li>go to http://localhost:80</li>
+    </ol>
 
-
-
-
-
+<h3>Links:</h3>
+<ul>
+    <li><a href = https://hub.docker.com/repository/docker/angelaarroyo/angela-project1-prod>Docker Hub Repository for this project</a></li>
+</ul>
 
             <p>
-Resources:
+<h3>Resources:</h3>
                 <ul>
             <li> <a href = https://docs.docker.com/get-started/overview/> Docker.com </a>
         </ul>
             </p>
-
+<br>
+    <br>
         </div>

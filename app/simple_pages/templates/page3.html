@@ -61,10 +61,16 @@
                 This is because Flask is a lightweight framework so even if it might not come with a lot of features, it is a great way to start and scale up.
             </p>
             <br>
-                <h1>PyTest</h1>
+            <h2>Flask Blueprint</h2>
+            <p>The key concept behind any Flask Blueprint is that
+                they record operations to be executed later when you register them on an application. A Flask Blueprint is not an application.
+            It actually needs to be registered in an application before you can run it.</p>
+
+                <h2>PyTest</h2>
 
                         <img style='float:right;width:400px;height:200px; margin-right:0px;' src="https://files.realpython.com/media/Intermediate-Advanced-PyTest-Features_Watermarked.2d8ace6b71be.jpg" />
-                        <img style='float:right;width:200px;height:200px; margin-right:10px;' src="https://docs.pytest.org/en/7.0.x/_static/pytest_logo_curves.svg" />
+                        <img style='float:right;width:
+                        200px;height:200px; margin-right:10px;' src="https://docs.pytest.org/en/7.0.x/_static/pytest_logo_curves.svg" />
 
             <p>
                 PyTest is a testing framework that allows users to write test codes using Python programming language.
@@ -73,12 +79,24 @@
 <br> The pytest framework makes it easy to write small, readable tests, and can scale to support complex functional testing for applications and libraries.
             </p>
 
-        </div>
-    </div>
+            <br>
+            <br>
+            <figure>
+                <h3>My Project pytest results</h3>
+  <img src="https://i.imgur.com/2ZRmXSX.png" alt="..." style="width:50%">
 
+</figure>
+<h2>My Project Outline</h2>
+            <img style='float:right; margin-right:10px;' src="https://i.imgur.com/dQwkfUi.png" />
+<ul>
+            <li><b>.github:</b> contains the workflow files: dev.yml, heroku_awake_dev.yml, heroku_awake_prod.yml, prod.yml</li>
+            <li><b>app:</b> the application folder the app's html pages - in this case, index, pages 1-4</li>
+            <li><b>tests:</b> the tests used for the pages inside the app folder</li>
+            <li><b>docker-compose.yml:</b> contains instructions on how to deploy and manage a container/multiple containers at the same time </li>
+            <li><b>Dockerfile:</b> simple text file that consists of instructions to build Docker images</li>
+            <li><b>heroku.yml:</b> manifest you can use to define your Heroku app, edited with my heroku credentials</li>
 
-
-
+        </ul>
 
 
 <h3> My Links:</h3>
@@ -90,7 +108,13 @@
                 <ul>
                     <li> <a href = https://dev.to/sm0ke/flask-python-tutorial-for-beginners-222f> Dev.to </a> </li>
                     <li> <a href = https://pythonistaplanet.com/what-can-you-do-with-flask/> Pythonistaplanet.com </li>
+                    <li> <a href = https://realpython.com/flask-blueprint/> Realpython.com </a></li>
+                    <li> <a href = https://devcenter.heroku.com/articles/build-docker-images-heroku-yml> Heroku Dev Center</li>
         </ul>
             </p>
-
+<br>
+    <br>
         </div>
+    </div>
+    <br>
+    <br>
