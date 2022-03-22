@@ -1,0 +1,161 @@
+
+   <!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="app/static/css/style.css">
+
+    <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+<body>
+<!-- Responsive navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container px-5">
+                <a class="navbar-brand">Welcome </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" aria-current="page" href="/index">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/page1">Git and Github</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/page2">Docker</a></li>
+                         <li class="nav-item"><a class="nav-link" href="/page3">Python and Flask</a></li>
+                               <li class="nav-item"><a class="nav-link" href="/page4">CICD</a></li>
+                              <li class="nav-item"><a class="nav-link" href="/article1">Python and Others</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/article2">AAA Testing</a></li>
+                         <li class="nav-item"><a class="nav-link active" href="/article3">OOPs</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/article4">SOLID</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Page Content-->
+<br>
+<div class="container">
+                <img style='float:right;width:400px;height:400px; margin-right:10px;' src="https://codingnomads.co/wp-content/uploads/2020/12/OOP-graphic-blog-oop-concepts-in-java-what-is-object-oriented-programming.png" />
+
+    <h1>Object Oriented Programming</h1>
+    <div class="row">
+        <div class="col-md-12">
+
+
+            <p>
+                Object-oriented programming is based on the concept of objects. In object-oriented programming data structures (or objects) are defined, each with its own properties or attributes.
+                Each object may also contain its own procedures or methods.
+                There are benefits to software being designed this way where the objects interact with one another. These benefits include:
+                <ul>
+                <li>faster and easier to execute code</li>
+                <li>provides clear structure for a program</li>
+                <li>makes code easier to reuse</li>
+                <li> makes code easier to modify, debug, and maintain</li>
+                </ul>
+
+            </p>
+                <br>
+                <br>
+                <h2>OOP Terms</h2>
+                <ul>
+            <li><b> Instantiation: </b>
+                Instantiation is the creation of a real instance or particular realization of an
+                abstraction or template such as a class of objects or a computer process. To instantiate
+                is to create such an instance by, for example, defining one particular variation of object within a class,
+                giving it a name, and locating it in some physical place.</li>
+                    <br>
+            <li><b>Objects: </b>
+                Software objects are conceptually similar to real-world objects:
+                they too consist of state and related behavior. <br> An object stores its state in
+                fields (variables in some programming languages) and exposes its behavior
+                through methods <br>(functions in some programming languages)</li>
+                    <br>
+            <li><b>Class: </b> a class is a blueprint that defines a nature of a future object. It is a set of instructions to build a specific type of object</li>
+            <br>
+                    <li><b> Namespace: </b> A namespace is a way of grouping identifiers
+                so that they don’t clash. You can reopen a namespace and add <br> to it
+                across translation units.</li>
+                    <br>
+            <li><b>Constructor: </b> A constructor is a special method of a class or structure in object-oriented programming that
+                initializes a newly
+                <br>created object of that type. Whenever an object is created, the constructor is called automatically.</li>
+                    <br>
+              <li><b>Fixtures:</b> The purpose of a test
+                  fixture is to ensure that there is a well known
+                  and fixed environment in which tests are run<br>so that results are repeatable.
+                  Some people call this the test context. One example of a fixture includes loading a database <br>with a specific
+                  known set of data.</li>
+                    <br>
+               <li><b>Type hint:</b>
+               Type hints are used to indicate object types in a programming language.
+                   They also explicitly state the type of values <br> returned by functions and classes.
+                   This mechanism and coding style is sometimes called “static typing” or “type checking” <br> in
+                   programming terminology. Some programming languages enforce type hints and without them, the interpreter or compiler <br>throws errors
+               </li>
+                    <br>
+                    <li><b>Type cast: </b>
+                    Type casting can also be called explicit type conversion. This is where the data types of objects are converted using<br> predefined functions
+                        by the user. In Type Casting, loss of data may occur as we enforce the object to a specific data type.
+                    </li> <br>
+                    <li><b>Static method: </b>
+                    A static method is bound to a class rather than the objects for that class. This means that a static method can be called without an object for that class. This also means that static methods cannot modify the state of an object as they are not bound to it.
+                    </li>
+                    <br>
+                    <li><b>Instance method:</b>
+                        An instance method can access and even modify the value of attributes of an instance. It has one default parameter, self.
+
+self is a keyword which points to the current passed instance. But it need not be passed every time while calling an instance method.
+
+                    </li> <br>
+                    <li><b>Instance property:</b> </li> <br>
+                    <li><b>Static property:</b> </li> <br>
+                    <li><b>Encapsulation:</b>
+                    Encapsulation refers to the bundling of data with the methods that operate on that data. Encapsulation is used to hide the values or state of a structured data object inside a class, preventing unauthorized parties’ direct access to them.
+                    Encapsulation is a good idea because the functionality is defined in one place and not in multiple places and it's defined
+                        in a logical place (where the data is kept).
+                    </li> <br>
+                    <li><b>Inheritance: </b>
+                        Inheritance is a mechanism where you can to derive a class from another class for a hierarchy of classes that share a set of attributes and methods.
+You can use it to declare different kinds of exceptions, add custom logic to existing frameworks, and even map your domain model to a database.
+
+                    </li> <br>
+                    <li><b>Polymorphism:</b>
+                    Polymorphism describes situations in which something occurs in several different forms. In computer science, it describes the concept that you can
+                        access objects of different types through the same interface. Each type can provide its own independent implementation of this interface.
+                    </li> <br>
+                    <li><b>Abstraction:</b>
+                    Through the process of abstraction, a programmer hides all
+                        but the relevant data about an object in order to reduce complexity and increase efficiency.
+                    </li> <br>
+                    <li><b>SOLID: </b>
+
+                    <ul>
+                        <li>The <b>S</b>ingle Responsibility Principle </li>
+                        <li>The <b>O</b>pen-Closed Principle</li>
+                        <li>The <b>L</b>iskov Substitution Principle</li>
+                        <li>The <b>I</b>nterface Segregation Principle</li>
+                        <li>The <b>D</b>ependency Inversion Principle  </li> <br>
+
+        </ul>
+                        <li><b>Design Patterns: </b></li>
+            <br>
+
+            <br>
+
+<h3> Resources:</h3>
+                <ul>
+                    <li> <a href = https://linuxhint.com/type-hints-in-python/> linuxhint.com</a> </li>
+                    <li> <a href = https://www.geeksforgeeks.org/difference-namespace-class/> geeksforgeeks.org </li>
+                    <li> <a href = https://funtech.co.uk/latest/explain-object-oriented-programming-to-kids> funtech.co.uk </a></li>
+                    <li> <a href = https://www.programiz.com/python-programming/type-conversion-and-casting> programiz.com</li>
+                    <li> <a href =https://docs.python.org/3/tutorial/classes.html> python.org</li>
+        </ul>
+            </p>
+<br>
+    <br>
+        </div>
+    </div>
+    <br>
+    <br>
