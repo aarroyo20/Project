@@ -18,10 +18,10 @@ class Calculation:
     @staticmethod
     def convert_args_to_tuple_of_float(tuple_list):
         """ standardize values to list of floats"""
-         list_values_float = []
-        for i in tuple_list:
-            list_values_float.append(float(i))
-        return tuple(list_values_float)
+    list_values_float = []
+    for i in tuple_list:
+        list_values_float.append(float(i))
+    return tuple(list_values_float)
 
 
 class Addition(Calculation):
