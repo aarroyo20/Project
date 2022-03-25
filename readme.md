@@ -1,3 +1,5 @@
+# Project 2
+## This repo contains both Project 1 (revised) and Project 2 (fixes from Project 1, 4 articles, calculator, etc)
 # Project Setup
 * link to Dev app: https://angela-project1-dev.herokuapp.com/
 * link to Prod app: https://angela-project1-prod.herokuapp.com/
