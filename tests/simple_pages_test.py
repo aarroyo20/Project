@@ -4,15 +4,16 @@ def test_request_main_menu_links(client):
     """This makes the index page"""
     response = client.get("/")
     assert response.status_code == 200
+    # pylint: disable=line-too-long
     assert b'<li class="nav-item"><a class="nav-link" href="/page1">Git and Github</a></li>' in response.data
     assert b'<li class="nav-item"><a class="nav-link" href="/page2">Docker</a></li>' in response.data
     assert b'<li class="nav-item"><a class="nav-link" href="/page3">Python and Flask</a></li>' in response.data
     assert b'<li class="nav-item"><a class="nav-link" href="/page4">CICD</a></li>' in response.data
-    assert b'<li class="nav-item"><a class="nav-link" href="/article1">Python and Others</a></li>' in response.data
-    assert b'<li class="nav-item"><a class="nav-link" href="/article2">AAA Testing</a></li>' in response.data
+    assert b'<li class="nav-item"><a class="nav-link" href="/article1">pylint and others</a></li>' in response.data
+    assert b'<li class="nav-item"><a class="nav-link" href="/article2">AAA</a></li>' in response.data
     assert b'<li class="nav-item"><a class="nav-link" href="/article3">OOPs</a></li>' in response.data
     assert b'<li class="nav-item"><a class="nav-link" href="/article4">SOLID</a></li>' in response.data
-
+    # pylint: enable=line-too-long
 def test_request_index(client):
     """This makes the index page"""
     response = client.get("/")

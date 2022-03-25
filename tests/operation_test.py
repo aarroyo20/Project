@@ -1,19 +1,18 @@
-"""Testing the calculator operations """
+"""Testing the calculator Operations """
 from calculator.operations import Addition, Subtraction, Multiplication, Division
-
 def test_calculator_operations_add():
     """testing addition"""
-    assert Addition.add(1, 1) == 2
-    assert Addition.add(10, 10) == 20
+    assert Addition.add(1, 5) == 6
+    assert Addition.add(20, 20) == 40
 
 def test_calculator_operations_subtract():
     """testing subtraction"""
-    assert Subtraction.subtract(8.0, 4.0) == 4.0
+    assert Subtraction.subtract(2.0, 1.0) == 1.0
 
 def test_calculator_operations_multiply():
-    """testing multiplication"""
-    assert Multiplication.multiply(2, 4) == 8
+    """multiplication testing"""
+    assert Multiplication.multiply(2,3) == 6
 
 def test_calculator_operations_divide():
-    """testing division"""
-    assert Division.divide(8, 4) == 2
+    """division testing"""
+    assert Division.divide(4, 2) == 2
